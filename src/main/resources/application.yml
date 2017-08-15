@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    driver-class-name: org.postgresql.Driver
+    username: test
+    password: test
+  jpa:
+    hibernate:
+      ddl-auto: create
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+ 
+auth:
+  secret: b1e9c150-9cc7-4479-a79a-8f1772a1e9c1
+  expires: 604800
+  header: Authorization
+ 
+security:
+  basic:
+    enabled: false 
