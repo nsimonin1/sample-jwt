@@ -14,7 +14,7 @@ Technology:
 How to use app:
 -
 run in command line:<br>
-    * mvnw
+    * mvnw <br>
     * mvn clean install && java -jar target/sample-backend-0.0.1-SNAPSHOT.jar
      
      
